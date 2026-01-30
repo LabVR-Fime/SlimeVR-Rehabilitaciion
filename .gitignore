@@ -30,6 +30,14 @@ sysinfo.txt
 .vscode/
 .idea/
 *.swp
+.vsdix
 
 # ========== OS ==========
 Thumbs.db
+.vs/SlimeVR-Rehabilitaciion.slnx/FileContentIndex/bf4a8e02-65de-4ef1-9be1-17191b929e8b.vsidx
+*.vsidx
+*.vsidx
+*.v2
+.vs/ProjectEvaluation/slimevr-rehabilitaciion.strings.v10.bin
+.vs/ProjectEvaluation/slimevr-rehabilitaciion.projects.v10.bin
+.vs/ProjectEvaluation/slimevr-rehabilitaciion.metadata.v10.bin
