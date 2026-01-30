@@ -7,6 +7,9 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
+# ======== Documentación ======
+Documentación
+
 # Asset Store tools cache
 [Uu]serSettings/
 
@@ -20,6 +23,8 @@
 *.pidb
 *.booproj
 
+
+
 # Unity meta (NO ignorar .meta en general)
 .DS_Store
 
@@ -28,6 +33,8 @@ sysinfo.txt
 
 # ========== IDEs ==========
 .vscode/
+*.vs/
+.vsidx
 .idea/
 *.swp
 .vsdix
