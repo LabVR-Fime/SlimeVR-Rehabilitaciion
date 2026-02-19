@@ -15,6 +15,8 @@ public class Gestor_Dialogos : MonoBehaviour
     public GameObject Alert1;
     public TMPro.TMP_Text TXT_Instruccion_Estado;
 
+    public UI_Animaciones Animaciones;
+
     void Start()
     {
         StartCoroutine(SecuenciaDialogo());
@@ -65,6 +67,7 @@ public class Gestor_Dialogos : MonoBehaviour
             TXT_Instruccion_Estado.text = "¡Objetivo alcanzado!";
             Alert1.SetActive(true);
         }
+
 
     }
 
