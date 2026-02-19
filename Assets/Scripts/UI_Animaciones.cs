@@ -22,6 +22,29 @@ public class UI_Animaciones : MonoBehaviour
 
     private void Start()
     {
+
+
+
+    //Esta variable es s�lo para comprobar que se inicie s�lo una vez el programa
+    private static bool AnimacionInicioHecha = false;
+
+    private void Start()
+    {
+        if (AnimacionInicioHecha) {
+            GrupoCanvas.SetActive(false);
+            return; }//Si ya se ejecut� entonces ya no lo hace.
+        else
+        {
+            AnimacionInicio();
+            AnimacionInicioHecha = true;
+            GrupoCanvas.SetActive(true);
+
+        }
+    }
+
+
+    private void AnimacionInicio()
+    {
         //Esto mueve los dibujitos al centro pero de manera "rebotona"
         LeanTween.moveX(ContextoControl_Mouse.GetComponent<RectTransform>(), -480, 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeOutBounce);
         LeanTween.moveX(ContextoControl_Teclado.GetComponent<RectTransform>(), 20, 1.5f).setDelay(1.8f).setEase(LeanTweenType.easeOutBounce);
@@ -42,6 +65,7 @@ public class UI_Animaciones : MonoBehaviour
 
 
     }
+
 }
 
 
