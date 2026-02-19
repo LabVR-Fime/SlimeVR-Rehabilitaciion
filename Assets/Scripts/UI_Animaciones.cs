@@ -20,10 +20,6 @@ public class UI_Animaciones : MonoBehaviour
     [SerializeField] public TMPro.TMP_Text TextoMoverX;
 
 
-    private void Start()
-    {
-
-
 
     //Esta variable es s�lo para comprobar que se inicie s�lo una vez el programa
     private static bool AnimacionInicioHecha = false;
