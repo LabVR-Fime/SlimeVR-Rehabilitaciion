@@ -1018,6 +1018,7 @@ GameObject:
   - component: {fileID: 2011406248769420301}
   - component: {fileID: 878328252732654001}
   - component: {fileID: 4104701219800043908}
+  - component: {fileID: 5366762042564145598}
   m_Layer: 5
   m_Name: CajaTexto_Instrucciones
   m_TagString: Untagged
@@ -1100,6 +1101,21 @@ MonoBehaviour:
   Dialogo3: {fileID: 5819918330605547141}
   Alert1: {fileID: 3800102275211392104}
   TXT_Instruccion_Estado: {fileID: 8831265382815037352}
+  Animaciones: {fileID: 0}
+--- !u!114 &5366762042564145598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648489916076997671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f48e3df5d891b444b5da232ab09272f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Repeticiones_UI_Animaciones
+  TextoAgitado1: {fileID: 7883345091024762710}
+  GrupoCanvas: {fileID: 0}
 --- !u!1 &3800102275211392104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ejercicio de rehabilitaci\xF3n de hombro"
+  m_text: "Ejercicio de rehabilitaci\xF3n de hombro (derecho)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 081d4f726c2aa3247a339622912c7728, type: 2}
   m_sharedMaterial: {fileID: 528902350266850636, guid: 081d4f726c2aa3247a339622912c7728, type: 2}
@@ -2088,7 +2104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.8, y: 10}
+  m_AnchoredPosition: {x: -13.8, y: 16}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1311046574388769317
@@ -2119,7 +2135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sube el hombro.
+  m_text: 'Sube el hombro derecho.
 
     (Despacio, por favor)'
   m_isRightToLeft: 0
@@ -2161,7 +2177,7 @@ MonoBehaviour:
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: -48.11
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -2395,8 +2411,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lo lograste.\n\nTerminaste las repeticiones del movimiento.\nSi eliges
-    continuar, ser\xE1 m\xE1s dif\xEDcil esta vez. \xBFCotinuar?"
+  m_text: "Lo lograste.\nTerminaste las repeticiones del movimiento.\nSi eliges continuar,
+    cada vez habr\xE1 m\xE1s repeticiones.\n\xBFCotinuar?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6565d9137701da4e9eeb18c87a5a750, type: 2}
   m_sharedMaterial: {fileID: -4441884516079592618, guid: c6565d9137701da4e9eeb18c87a5a750, type: 2}
