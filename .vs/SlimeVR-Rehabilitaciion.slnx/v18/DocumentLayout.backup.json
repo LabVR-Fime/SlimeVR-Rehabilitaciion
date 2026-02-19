@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_animaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\proyectos\\slimevr-rehabilitaciion\\assets\\scripts\\lector_sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lector_sensores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\proyectos\\slimevr-rehabilitaciion\\assets\\scripts\\ui_botones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui_botones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\proyectos\\slimevr-rehabilitaciion\\assets\\scripts\\detectorrepeticiones_hombro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectorrepeticiones_hombro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\proyectos\\slimevr-rehabilitaciion\\assets\\scripts\\gestor_dialogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestor_dialogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +26,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UI_Botones.cs",
-              "DocumentMoniker": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Botones.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Botones.cs",
-              "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Botones.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI_Botones.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UI_Animaciones-MenuPrincipal.cs",
+              "DocumentMoniker": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs",
+              "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI_Animaciones-MenuPrincipal.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T00:44:23.438Z"
+              "WhenOpened": "2026-02-19T00:04:48.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lector_Sensores.cs",
-              "DocumentMoniker": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\Lector_Sensores.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lector_Sensores.cs",
-              "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\Lector_Sensores.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lector_Sensores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DetectorRepeticiones_Hombro.cs",
+              "DocumentMoniker": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\DetectorRepeticiones_Hombro.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectorRepeticiones_Hombro.cs",
+              "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\DetectorRepeticiones_Hombro.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectorRepeticiones_Hombro.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzoAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T00:01:39.717Z"
+              "WhenOpened": "2026-02-19T00:03:36.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gestor_Dialogos.cs",
+              "DocumentMoniker": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\Gestor_Dialogos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gestor_Dialogos.cs",
+              "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\Gestor_Dialogos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gestor_Dialogos.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAjwEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T23:51:30.992Z"
             },
             {
               "$type": "Document",
@@ -56,9 +71,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI_Animaciones.cs",
               "ToolTip": "D:\\Proyectos\\SlimeVR-Rehabilitaciion\\Assets\\Scripts\\UI_Animaciones.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI_Animaciones.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T21:24:53.604Z",
+              "WhenOpened": "2026-02-19T02:01:09.226Z",
               "EditorCaption": ""
             }
           ]

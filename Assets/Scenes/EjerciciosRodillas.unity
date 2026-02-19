@@ -130,6 +130,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &146106360 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4104701219800043908, guid: 51920731a2f3beb40be1ad61bb57b714, type: 3}
+  m_PrefabInstance: {fileID: 970559575}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74931bad684f4754fb64028ffc547a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gestor_Dialogos
 --- !u!1001 &261267855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1968,7 +1979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a867c972606dc534e9db7b4acf55d361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DetectorRepeticiones_Rodilla
-  GestorDialogos: {fileID: 0}
+  GestorDialogos: {fileID: 146106360}
   TXT_Repeticiones: {fileID: 95125581}
   TXT_Objetivo: {fileID: 2092210730}
   TXT_Instruccion_Estado: {fileID: 1964521691}

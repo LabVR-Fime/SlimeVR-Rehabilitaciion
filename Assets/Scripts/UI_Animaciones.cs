@@ -17,13 +17,29 @@ public class UI_Animaciones : MonoBehaviour
     [SerializeField] public RawImage IMG_SVEI2;
     [SerializeField] public RawImage IMG_SVEI3;
 
-    [SerializeField] public TMPro.TMP_Text TextoMoverX;
-    private RectTransform rt;
+
+
+
+    //Esta variable es sólo para comprobar que se inicie sólo una vez el programa
+    private static bool AnimacionInicioHecha = false;
 
     private void Start()
     {
-        rt = TextoMoverX.GetComponent<RectTransform>();
+        if (AnimacionInicioHecha) {
+            GrupoCanvas.SetActive(false);
+            return; }//Si ya se ejecutó entonces ya no lo hace.
+        else
+        {
+            AnimacionInicio();
+            AnimacionInicioHecha = true;
+            GrupoCanvas.SetActive(true);
 
+        }
+    }
+
+
+    private void AnimacionInicio()
+    {
         //Esto mueve los dibujitos al centro pero de manera "rebotona"
         LeanTween.moveX(ContextoControl_Mouse.GetComponent<RectTransform>(), -480, 1.5f).setDelay(1.5f).setEase(LeanTweenType.easeOutBounce);
         LeanTween.moveX(ContextoControl_Teclado.GetComponent<RectTransform>(), 20, 1.5f).setDelay(1.8f).setEase(LeanTweenType.easeOutBounce);
@@ -45,16 +61,4 @@ public class UI_Animaciones : MonoBehaviour
 
     }
 
-    public void AgitarX()
-    {
-        float startX = rt.anchoredPosition.x;
-        float offset = 10f;
-        LeanTween.moveX(rt, startX + offset, 0.1f)
-            .setEase(LeanTweenType.easeOutQuad)
-            .setOnComplete(() =>
-            {
-                LeanTween.moveX(rt, startX, 0.3f)
-                    .setEase(LeanTweenType.easeOutBounce);
-            });
-    }
 }
