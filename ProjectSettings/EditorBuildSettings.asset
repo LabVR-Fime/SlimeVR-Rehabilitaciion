@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/Sala_Depuraci\xF3n.unity"
     guid: f341a7d466f1ae14bbcede4f56ed0b14
   - enabled: 1
