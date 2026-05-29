@@ -1098,18 +1098,18 @@ PrefabInstance:
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1671375286}
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: VolverAlMenu
+      value: CargarMenuPrincipal
       objectReference: {fileID: 0}
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Gestor_Dialogos, Assembly-CSharp
+      value: UI_Creditos, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
