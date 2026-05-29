@@ -1087,6 +1087,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: BTN_Regresar
       objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1671375287}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VolverAlMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gestor_Dialogos, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1725,7 +1753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671375284}
   - component: {fileID: 1671375286}
-  - component: {fileID: 1671375285}
+  - component: {fileID: 1671375287}
   m_Layer: 0
   m_Name: Scripts de la escena
   m_TagString: Untagged
@@ -1748,20 +1776,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1671375285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671375283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a0bb5aabf2ef84a9992a9365644bfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuPrincipal
-  UIPrincipal: {fileID: 0}
-  UISeleccion: {fileID: 0}
 --- !u!114 &1671375286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1775,6 +1789,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_Creditos
   Creditos: {fileID: 1682978009}
+--- !u!114 &1671375287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671375283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74931bad684f4754fb64028ffc547a0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gestor_Dialogos
+  Dialogo1: {fileID: 0}
+  Dialogo2: {fileID: 0}
+  Dialogo3: {fileID: 0}
+  Alert1: {fileID: 0}
+  TXT_Instruccion_Estado: {fileID: 0}
+  Animaciones: {fileID: 0}
 --- !u!1 &1682978007
 GameObject:
   m_ObjectHideFlags: 0
