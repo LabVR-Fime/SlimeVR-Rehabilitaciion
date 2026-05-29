@@ -43,5 +43,9 @@ public class UI_Botones : MonoBehaviour
     {
         SceneManager.LoadScene("EjerciciosHombros");
     }
+    public void CargarCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
 
 }

@@ -1098,7 +1098,7 @@ PrefabInstance:
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1671375287}
+      objectReference: {fileID: 0}
     - target: {fileID: 8534179941845222303, guid: af08052d199f6354c895688ddd6d67d1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1753,7 +1753,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1671375284}
   - component: {fileID: 1671375286}
-  - component: {fileID: 1671375287}
   m_Layer: 0
   m_Name: Scripts de la escena
   m_TagString: Untagged
@@ -1789,24 +1788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_Creditos
   Creditos: {fileID: 1682978009}
---- !u!114 &1671375287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671375283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74931bad684f4754fb64028ffc547a0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Gestor_Dialogos
-  Dialogo1: {fileID: 0}
-  Dialogo2: {fileID: 0}
-  Dialogo3: {fileID: 0}
-  Alert1: {fileID: 0}
-  TXT_Instruccion_Estado: {fileID: 0}
-  Animaciones: {fileID: 0}
 --- !u!1 &1682978007
 GameObject:
   m_ObjectHideFlags: 0

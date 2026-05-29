@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EjerciciosRodillas.unity
     guid: 765c603789418dd429f6be84d4123086
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: fa8f6b95c0af52b40bd7d8fdab472e44
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
