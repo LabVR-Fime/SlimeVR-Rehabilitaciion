@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuPrincipal : MonoBehaviour
+public class UI_Botones : MonoBehaviour
 {
     public GameObject UIPrincipal;
     public GameObject UISeleccion;
 
-    // Menú principal
+    // AquÃ­ comienzan funciones hechas para funcionar como BOTONES DE CANVAS - - - - - - - - - - - - - - - - - -
     public void Start()
     {
         UIPrincipal.SetActive(true);
@@ -25,12 +25,15 @@ public class MenuPrincipal : MonoBehaviour
     }
 
 
-    // Selección de ejercicios
+    // Selecciï¿½n de ejercicios
     public void Regresar()
     {
         UIPrincipal.SetActive(true);
         UISeleccion.SetActive(false);
     }
+
+
+    // AquÃ­ comienzan funciones hechas para funcionar como BOTONES DE ESCENA- - - - - - - - - - - - - - - - - -
 
     public void CargarRodilla1()
     {
@@ -40,7 +43,5 @@ public class MenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("EjerciciosHombros");
     }
-
-
 
 }

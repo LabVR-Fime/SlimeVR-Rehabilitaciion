@@ -1,10 +1,11 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UI_Creditos : MonoBehaviour
 {
 
-    public TMP_Text Creditos;       //Nombres de créditos
+    public TMP_Text Creditos;       //Variables de créditos
 
     void Start()
     {
@@ -15,8 +16,13 @@ public class UI_Creditos : MonoBehaviour
             .setEaseLinear();                                //De manera lineal
             }
 
-    void Update()
+
+    
+    public void CargarMenuPrincipal()
     {
-        
+        SceneManager.LoadScene("MenuPrincipal");
     }
+
+
+
 }
